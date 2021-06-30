@@ -57,5 +57,7 @@ Additionally, you should add your background image url to 'imageUrl' variable (l
 var imageUrl = "your URL";
 ```
 
+### Example Download Scenario
+
 
 ![ecordingCounter](https://user-images.githubusercontent.com/25638469/123947618-3eb9da80-d9a9-11eb-82f8-f20dd90eea60.gif)
