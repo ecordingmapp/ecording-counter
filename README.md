@@ -3,7 +3,7 @@
 
 ### Clone project to your system
 Firstly, you should clone this project to your system. In directory, which you want to clone to, you must write 
-```git clone https://github.com/erentts/rebul-deneme.git``` in command line 
+```git clone https://github.com/ecordingmapp/ecording-counter.git``` in command line 
 
 ### Creating HTML File
 Moreover, html file should have been created (Example : sample.html). Then you should paste code that is below in html file.
