@@ -6,8 +6,15 @@ var ecordingAPI =
   "https://api.ecording.org/api/v1/counter?api_key=<your-api-key>";
 
 var imageUrl = "<your-background-url>";
-//asd
+
 image.style.backgroundImage = `url(${imageUrl})`;
+
+var img = new Image();
+img.src = imageUrl;
+img.onload = function () {
+  var result = this.height / this.width;
+  image.style.setProperty("height", `calc(100vw * ${result})`);
+};
 
 // Get from API
 
