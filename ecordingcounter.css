@@ -52,4 +52,25 @@
   place-content: center;
   position: absolute;
   bottom: 40px;
+  font-family: cursive;
+}
+
+@media screen and (max-width: 450px) {
+  .same-properties {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: gray;
+    float: left;
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+    font-weight: bolder;
+  }
+
+  .one-box {
+    bottom: 25px;
+  }
 }

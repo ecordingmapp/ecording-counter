@@ -14,6 +14,7 @@ img.src = imageUrl;
 img.onload = function () {
   var result = this.height / this.width;
   image.style.setProperty("height", `calc(100vw * ${result})`);
+  image.parentElement.style.setProperty("height", `calc(100vw * ${result})`);
 };
 
 // Get from API
